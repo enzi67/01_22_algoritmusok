@@ -16,5 +16,7 @@ for szam in lista:
       if szam > legnagyobb:
 	        legnagyobb = szam
 
+print(max(lista))       # egyenlő a legnagyobb értékkel
+
 print(f'A legkisebb szám a listában: {legkisebb}')
 print(f'A legnagyobb szám a listában: {legnagyobb}')
