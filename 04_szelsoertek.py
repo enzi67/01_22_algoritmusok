@@ -17,6 +17,7 @@ for szam in lista:
 	        legnagyobb = szam
 
 print(max(lista))       # egyenlő a legnagyobb értékkel
+print(min(lista))       # enyenlő a legalacsonyabb értékkel
 
 print(f'A legkisebb szám a listában: {legkisebb}')
 print(f'A legnagyobb szám a listában: {legnagyobb}')
