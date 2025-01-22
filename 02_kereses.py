@@ -5,7 +5,7 @@ hogy szerepel-e egy bizonyos tulajdonságú elem az adatsorban (itt a listában)
 
 A program azt vizsgálja, hogy szerepel-e a piros szín a listában, és ha igen, hányadik helyen.
 """
-lista = ['kék', 'zöld', 'piros', 'fehér']
+lista = ['kék', 'zöld', 'piros', 'fehér', 'piros']
 
 # talalat = False
 # index = 0
@@ -19,8 +19,14 @@ lista = ['kék', 'zöld', 'piros', 'fehér']
 # else:
 #       print('Nincs a listában piros szín.')
 
+#megnézi van-e piros
 if 'piros' in lista:
     print("A listában van piros szín.")
 else:
     print("A listában nics piros.")
 
+#megszámolja hány 'piros' van a listában
+print(lista.count('piros'))
+
+#'for' függvénnyel megszámolja hány 'piros' van a listában
+for 
