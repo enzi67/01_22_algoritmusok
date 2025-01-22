@@ -38,3 +38,6 @@ print(f"A listában {mennyi} alkalommal szerepel a 'piros' szín.")
 #for ciklus indexszel
 how_many_times = 0
 for index in range(len(lista)):
+    if lista[index] == 'piros':
+        how_many_times += 1
+print(f"Ennyiszer fordul elő a 'piros' szín a listában: {how_many_times}")
