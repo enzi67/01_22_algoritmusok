@@ -14,5 +14,7 @@ while not talalat:
       if lista[index] % 3 == 0:
 	        talalat = True
       index = index + 1
-
-print('A hárommal osztható szám indexe a listában: ', index-1)
+if talalat = True:
+    print('A hárommal osztható szám indexe a listában: ', index-1)
+else:
+    print('Nincs hárommal osztható szám a listában.')
