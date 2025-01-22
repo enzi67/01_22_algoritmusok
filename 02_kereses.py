@@ -29,4 +29,12 @@ else:
 print(lista.count('piros'))
 
 #'for' függvénnyel megszámolja hány 'piros' van a listában
-for 
+mennyi = 0
+for szin in lista:
+    if szin == 'piros':
+        mennyi += 1
+print(f"A listában {mennyi} alkalommal szerepel a 'piros' szín.")
+
+#for ciklus indexszel
+how_many_times = 0
+for index in range(len(lista)):
